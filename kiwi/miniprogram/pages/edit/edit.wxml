@@ -1,0 +1,34 @@
+<!--miniprogram/pages/edit/edit.wxml-->
+<view class="c-conter">
+    <view class="c-table">
+        <view wx:for="{{nodes}}" wx:for-index="i" class="c-tr">
+            <!--node key-->
+            <view class="c-td c-key" style="{{item.kstyle}}">{{item.key}}</view>
+
+
+            <text class="c-td c-mh">:</text>
+
+            <!--value image-->
+            <image wx:if="{{item.vtype=='image'}}" src="{{item.path}}" bindtap="{{item.tapEvent}}" data-event1-params1="{{i}}"
+                    mode="aspectFit" class="c-td c-image"></image>
+            <!--value voice-->
+            <image wx:elif="{{item.vtype=='voice'}}" bindtap="{{item.tapEvent}}" data-event1-params1="{{i}}"
+                   src="{{item.path}}" mode="aspectFit" class="c-td c-voice"></image>
+            <!--value def-->
+            <input wx:else value="{{item.text}}" type="{{item.vtype}}"
+                   placeholder="{{item.vtype}}" bindinput="{{inputEvent}}" data-event1-params1="{{i}}"
+                   disabled="{{item.isEdit?false:true}}" maxlength="999" class="c-td c-input"/>
+
+            <!--del node-->
+            <view wx:if="{{item.isAllowDel}}" bindtap="{{delNodeEvent}}" data-event1-params1="{{i}}" class="c-td c-del">
+                x
+            </view>
+        </view>
+        <view class="c-tr">
+            <view class="c-td"></view>
+            <view class="c-td"></view>
+            <view class="c-td"></view>
+            <view style="{{savenode.style}}" bindtap="{{savenode.saveEvent}}" class="c-td c-save">{{savenode.text}}</view>
+        </view>
+    </view>
+</view>

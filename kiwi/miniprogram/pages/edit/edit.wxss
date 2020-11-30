@@ -1,0 +1,36 @@
+.c-conter{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+.c-table{
+    vertical-align: middle;
+    display: inline-block;
+}
+.c-tr{
+    display: table-row;
+}
+.c-td{
+    display: table-cell;
+    min-width: 5vw;
+    text-align: center;
+}
+.c-input{
+    border-bottom: 1px solid;
+    text-align: left;
+}
+.c-key,.c-key-input{
+    text-align: right;
+}
+.c-image,.c-voice{
+    max-width: 50vw;
+    border: 1px solid;
+}
+
+.c-key,.c-mh,.c-up,.c-del{
+    /*display: inline-block;*/
+    vertical-align: middle;
+}
+.c-save{
+    padding: 3vw;
+}

@@ -1,0 +1,73 @@
+<!--miniprogram/pages/setting/setting.wxml-->
+<!--my event-->
+<wxs src="./setting.wxs" module="w1" />
+<view class="c-conter">
+    <view class="c-settings">
+        <view wx:for="{{dSetts}}" wx:for-index="i" class="c-tr">
+            <!--skey-->
+            <view wx:if="{{item.itype=='object'}}" bindtap="{{item.tapEvent}}" data-event1-params1="{{';'+i}}"
+                  style="vertical-align:top" class="c-td c-key">{{item.skey}}:</view>
+            <view  wx:elif="{{item.itype=='buttons'}}" class="c-td c-key"></view>
+            <view  wx:else class="c-td c-key">{{item.skey}}:</view>
+            <!--checkbox sval:boolean-->
+            <checkbox wx:if="{{item.itype=='boolean'}}" checked="{{item.sval}}" bindtap="{{item.tapEvent}}"
+                      data-event1-params1="{{item.skey+';'+i}}" class="c-td c-val"/>
+            <!--picker sval:valuearr-->
+            <picker-view wx:elif="{{item.itype=='picker'}}" value="{{item.sval}}"
+                         bindchange="{{item.changeEvent}}" data-event1-params1="{{item.skey+';'+i}}" class="c-val c-picker">
+                <picker-view-column wx:for="{{item.sval}}" wx:for-item="vnode">
+                    <view wx:for="{{item.picarr}}" wx:for-item="pv" class="c-picker-c-v">{{pv}}</view>
+                </picker-view-column>
+            </picker-view>
+            <!--progress-->
+            <view wx:elif="{{item.itype=='progress'}}" class="c-td c-val">
+                <progress  percent="{{w1.fToFix(item.sval)}}" color="{{item.color}}" show-info="true" class="c-pro"/>
+            </view>
+            <!--buttons-->
+            <view wx:elif="{{item.itype=='buttons'}}" class="c-td c-val">
+                <view wx:for="{{item.buttons}}" wx:for-item="button" wx:for-index="bi" bindtap="{{button.tapEvent}}" data-event1-params1="{{button.eLink}}"
+                      class="c-button" style="width:{{100 /item.buttons.length - 1}}%">
+                    <image wx:if="{{button.btype=='image'}}" src="{{button.sval}}" mode="aspectFit" class="c-button-img"></image>
+                    <text wx:else class="c-button-text">{{button.sval}}</text>
+                </view>
+            </view>
+            <!--object fold-->
+            <view wx:elif="{{item.itype=='object'}}" class="c-fold c-val" style="{{item.isFold?'height:0;':''}}">
+                <view wx:for="{{item.sval}}" wx:for-item="itemm" wx:for-index="ii" class="c-tr">
+                    <!--skey-->
+                    <view wx:if="{{itemm.itype=='object'}}" bindtap="{{itemm.tapEvent}}" data-event1-params1="{{';'+i+';'+ii}}"
+                          style="vertical-align:top" class="c-td c-key">{{itemm.skey}}:</view>
+                    <view  wx:elif="{{itemm.itype=='buttons'}}" class="c-td c-key"></view>
+                    <view  wx:else class="c-td c-key">{{itemm.skey}}:</view>
+                    <!--checkbox sval:boolean-->
+                    <checkbox wx:if="{{itemm.itype=='boolean'}}" checked="{{itemm.sval}}" bindtap="{{itemm.tapEvent}}"
+                              data-event1-params1="{{item.skey+'.'+itemm.skey+';'+i+';'+ii}}" class="c-td c-val"/>
+                    <!--picker sval:valuearr-->
+                    <picker-view wx:elif="{{itemm.itype=='picker'}}" value="{{itemm.sval}}"
+                                 bindchange="{{itemm.changeEvent}}" data-event1-params1="{{item.skey+'.'+itemm.skey+';'+i+';'+ii}}" class="c-picker c-val">
+                        <picker-view-column wx:for="{{itemm.sval}}" wx:for-item="vnode">
+                            <view wx:for="{{itemm.picarr}}" wx:for-item="pv" class="c-picker-c-v">{{pv}}</view>
+                        </picker-view-column>
+                    </picker-view>
+                    <!--progress-->
+                    <view wx:elif="{{itemm.itype=='progress'}}" class="c-td c-val">
+                        <progress  percent="{{w1.fToFix(itemm.sval.sval)}}" color="{{itemm.sval.color}}" show-info="true" class="c-pro"/>
+                    </view>
+                    <!--buttons-->
+                    <view wx:elif="{{itemm.itype=='buttons'}}" class="c-td c-val">
+                        <view wx:for="{{itemm.buttons}}" wx:for-item="button" wx:for-index="bi"
+                              bindtap="{{button.tapEvent}}" data-event1-params1="{{button.eLink}}"
+                              class="c-button" style="width:{{100 /itemm.buttons.length - 1}}%">
+                            <image wx:if="{{button.btype=='image'}}" src="{{button.sval}}" mode="aspectFit" class="c-button-img"></image>
+                            <text wx:else class="c-button-text">{{button.sval}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <!--default-->
+            <view wx:else class="c-td c-val">
+                <view style="width: 100%;overflow: hidden;text-overflow: ellipsis;">{{item.sval}}</view>
+            </view>
+        </view>
+    </view>
+</view>

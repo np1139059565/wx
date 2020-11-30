@@ -1,0 +1,6 @@
+<scroll-view scroll-y="true" class="c-sv" enhanced="true" scroll-top="{{scroll.scrollTop}}">
+
+    <view wx-for="scroll.arr" class="c-sv-v">
+        {{item.text}}
+    </view>
+</scroll-view>

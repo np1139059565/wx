@@ -1,0 +1,63 @@
+/* miniprogram/pages/choice/choice.wxss */
+.c-choice-buttons{
+    height: 5vh;
+}
+.c-choice-buttons>view{
+    width: calc(100vw / 6);
+    height: 5vh;
+    float: left;
+}
+.c-choice-buttons>view>view{
+    width: 100%;
+    text-align: center;
+}
+
+
+.c-choice-answer{
+    width: 100vw;
+    height: calc(95vh / 3 - 2vh);
+    padding: 1vh 0;
+}
+.c-choice-answer>view{
+    width: 100%;
+    text-align: center;
+    font-size: 7vw;
+}
+
+.c-choice-tts,.c-choice-img{
+    height: 100%;
+}
+
+.c-choice-options{
+    margin-top: -2vh;
+}
+.c-choice-option{
+    width: 45vw;
+    height: calc(95vh / 3 - 2vh);
+    line-height: calc(95vh / 3 - 2vh);
+    margin-left: 3vw;
+    margin-top: 2vh;
+    float: left;
+    border-top: 1px solid #888888;
+    border-left: 1px solid #888888;
+    border-radius: 1vh;
+    box-shadow: 2vw 2vw 1vw #888888;
+    text-align: center;
+}
+.c-option-img{
+    width: 100%;
+}
+.c-choice-option-txls{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.c-choice-corr{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f6f6f6;
+}

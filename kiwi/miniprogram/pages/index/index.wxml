@@ -1,0 +1,74 @@
+<!--index.wxml-->
+
+<!--buttons-->
+<view class="c-index-buttons">
+    <view wx:for="{{dButtons}}" wx:for-index="i" style="{{item.style}}" bindtap="{{item.tapEvent}}" data-event1-params1="{{i}}" class="c-index-button">
+        <image wx:if="{{item.img!=''&&item.img!=null&&item.img!=''&&item.img!=''}}" mode="aspectFit" src="{{item.img}}" data-event1-params1="{{i}}"
+               class="c-table-td-image" style="border: 0;width:5vh;height: 5vh;"></image>
+        <view wx:else data-event1-params1="{{i}}">{{item.text}}</view>
+    </view>
+</view>
+
+<!--table-->
+<view class="c-index-table" style="{{dTable.style}}">
+    <!--table search-->
+    <view class="c-table-search">
+        <view class="c-table-td" bindtap="{{dTable.search.reStEvent}}">{{dTable.search.stype}}</view>
+        <input bindinput="{{dTable.search.inputEvent}}" value="{{dTable.search.stext}}" placeholder="search" class="c-table-td"/>
+    </view>
+    <!--table scroll-->
+    <view class="c-table-scroll">
+        <!--table head-->
+        <view class="c-table-head c-table-tr">
+            <view wx:for="{{dTable.head}}" wx:for-index="thIndex" class="c-table-td">
+                <!--key check all-->
+                <checkbox wx:if="{{item.isKey==true&&dTable.isopenCheckboxAll}}" checked="{{item.isChecked}}" bindtap="{{item.tapEvent}}"/>
+                <!--td value-->
+                <text wx:else bindtap="{{item.tapEvent}}" data-event1-params1="{{thIndex}}"
+                      class="c-table-sort-{{thIndex==dTable.sort.sindex?dTable.sort.stype:''}}">{{item.text}}</text>
+            </view>
+        </view>
+        <!--table body-->
+        <!--tr-->
+        <view wx:for="{{dTable.body}}" wx:for-index="trIndex" class="c-table-tr">
+            <!--td-->
+            <view wx:for="{{item}}" wx:for-index="tdIndex" class="c-table-td">
+                <!--key check-->
+                <checkbox wx:if="{{dTable.head[tdIndex].isKey==true}}" value="{{item.text}}" checked="{{item.isChecked}}"
+                          bindtap="{{item.cheEvent}}" data-event1-params1="{{trIndex}}" style="display: {{dTable.isOpenTrCheck?'block':'none'}};"/>
+                <text wx:if="{{dTable.head[tdIndex].isKey==true}}" style="display:{{dTable.isOpenTrCheck?'none':'block'}}">{{item.text}}</text>
+                <!--image-->
+                <image wx:if="{{item.vtype=='image'}}"   bindtap="{{item.tapEvent}}" data-event1-params1="{{item}}"
+                       mode="aspectFit" src="{{item.text}}" class="c-table-td-image"></image>
+                <image wx:elif="{{item.vtype=='voice'}}" bindtap="{{item.tapEvent}}" data-event1-params1="{{item}}"
+                       mode="aspectFit" src="{{item.text}}" class="c-table-td-image" style="border: 0;"></image>
+                <!--default value-->
+                <text wx:elif="{{dTable.head[tdIndex].isKey!=true}}" bindtap="{{item.tapEvent}}" data-event1-params1="{{item}}">{{item.text}}</text>
+            </view>
+        </view>
+    </view>
+    <!--table buttons-->
+    <view class="c-table-buttons">
+        <view wx:for="{{dTable.buttons}}">
+            <view wx:if="{{item.vtype=='button'}}" bindtap="{{item.tapEvent}}"  style="{{item.style}}">{{item.text}}</view>
+            <input wx:else value="{{item.inputValue}}" bindinput="{{item.inputEvent}}" type="{{item.vtype}}" style="{{item.style}}"/>
+        </view>
+    </view>
+</view>
+
+<!--trend-->
+<view class="c-trend" style="{{dTrend.style}}">
+    <view class="c-trend-buttons" style="display:{{dTrend.isOpenButton?'block':'none'}}">
+        <view wx:for="{{dTrend.buttons}}" wx:for-index="i" style="{{item.style}}"
+              bindtap="{{item.tapEvent}}" data-event1-params1="{{i}}" class="c-index-button">{{item.text}}</view>
+    </view>
+    <view class="c-trend-conter">
+        <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ dTrend.ec1 }}"></ec-canvas>
+    </view>
+    <view class="c-trend-buttons2" style="display:{{dTrend.isOpenButton2?'block':'none'}}">
+        <view wx:for="{{dTrend.buttons2}}">
+            <input wx:if="{{item.vtype=='input'}}" value="{{item.inputValue}}" bindinput="{{item.inputEvent}}" style="{{item.style}}"/>
+            <view wx:else bindtap="{{item.tapEvent}}"  style="{{item.style}}">{{item.text}}</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,7 @@
+git init
+git config --global user.name np1139059565//--global:全局 --unset:取消配置
+git config --global user.email 1139059565@qq.com
+//免密设置
+ 1.生成密钥:ssh-keygen -t rsa -C "1139059565@qq.com"//不断回车
+ 2.获取公钥:cat /c/Users/Administrator/.ssh/id_rsa.pub
+ 3.配置https://github.com/settings/profile>SSH and GPG keys>New SSH key

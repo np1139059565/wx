@@ -1,0 +1,64 @@
+/* miniprogram/pages/setting/setting.wxss */
+
+.c-conter{
+    width: 100vw;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+}
+.c-settings{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.c-tr{
+    display: table-row;
+}
+.c-td{
+    display: table-cell;
+    text-align: center;
+    height: 5vh;
+    line-height: 5vh;
+}
+
+.c-key{
+    width: 30%;
+    text-align: right;
+    vertical-align: middle;
+}
+.c-val{
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.c-picker{
+    height: calc(34px * 3);
+}
+.c-picker-c-v{
+    line-height: 34px;
+}
+
+.c-pro{
+    height: 100%;
+}
+.c-button{
+    height:5vh;
+    float: left;
+}
+.c-button-text{
+    height: 100%;
+}
+.c-button-img{
+    width:5vh;
+    height: 5vh;
+}
+
+.c-fold{
+    width: calc(100% - 4vw - 2px);
+    padding:2.5vh 2vw;
+    overflow: scroll;
+    border: 1px solid #CCC;
+}

@@ -1,0 +1,54 @@
+/* miniprogram/pages/fill/fill.wxss */
+.c-fill-buttons{
+    height: 5vh;
+}
+.c-fill-buttons>view{
+    width: calc(100vw / 6);
+    height: 5vh;
+    float: left;
+}
+.c-fill-buttons>view>view{
+    width: 100%;
+    text-align: center;
+}
+.c-fill-input-p{
+    margin: auto;
+    display: table;
+}
+.c-fill-inputs{
+    height: 5vh;
+    width: 100vw;
+    display: table-row;
+}
+.c-fill-inputs>view{
+    height: 100%;
+    display: table-cell;
+}
+.c-fill-inputs-input{
+    border-bottom: 1px solid;
+    text-align: center;
+    width: 4vw;
+    margin-left: 1vw;
+}
+
+.c-fill-answer{
+    height: 90vh;
+    padding: 5vw 0;
+    width: 100vw;
+}
+.c-fill-answer>view{
+    width: 100%;
+    text-align: center;
+    font-size: 7vw;
+}
+.c-fill-tts,.c-fill-img{
+    height: 100%;
+}
+.c-choice-corr{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f6f6f6;
+}

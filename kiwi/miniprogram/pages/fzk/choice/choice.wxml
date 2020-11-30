@@ -1,0 +1,29 @@
+<!--miniprogram/pages/choice/choice.wxml-->
+<view class="c-choice-buttons">
+    <view wx:for="{{dButtons}}" style="{{item.style}}">
+        <view bindtap="{{item.tapEvent}}"  style="{{item.style}}">{{item.text}}</view>
+    </view>
+</view>
+<!--answer-->
+<view bindtap="{{dAnswer.tapEvent}}" class="c-choice-answer">
+    <!--image-->
+    <image wx:if="{{ptype2[0]=='image'}}" mode="aspectFit" src="{{imagePaths[dAnswer.info.image]}}" style="{{dAnswer.style}}" class="c-choice-img"></image>
+    <!--tts-->
+    <image wx:elif="{{ptype2[0]=='voice'}}" mode="aspectFit" src="/images/voice.jpg" style="{{dAnswer.style}}" class="c-choice-tts"></image>
+    <!--text-->
+    <view wx:else  style="{{dAnswer.style}}">{{dAnswer.info[ptype2[0]]}}</view>
+</view>
+<!--selects-->
+<view class="c-choice-options">
+    <view wx:for="{{dO4Options}}" wx:for-index="i" class="c-choice-option" bindtap="{{item.tapEvent}}" data-event1-params1="{{i}}">
+        <!--image-->
+        <image wx:if="{{ptype2[1]=='image'}}" src="{{imagePaths[item.info.image]}}" style="{{item.style}}" mode="aspectFit" class="c-option-img c-choice-img"></image>
+        <!--tts-->
+        <image wx:elif="{{ptype2[1]=='voice'}}" src="/images/voice.jpg" style="{{item.style}}" mode="aspectFit" class="c-option-img c-choice-tts"></image>
+        <!--text-->
+        <view wx:else bindtap="{{item.tapEvent}}" style="{{item.style}}" class="c-choice-option-txls">{{item.info[ptype2[1]]}}</view>
+    </view>
+</view>
+<!--corr-->
+<image mode="aspectFit" src="/images/err.jpg" bindtap="{{dCorr.tapEvent}}" class="c-choice-corr"  style="display:{{dCorr.isCorr==false?'block':'none'}}"></image>
+<image mode="aspectFit" src="/images/succ.jpg" bindtap="{{dCorr.tapEvent}}" class="c-choice-corr" style="display:{{dCorr.isCorr==true?'block':'none'}}"></image>

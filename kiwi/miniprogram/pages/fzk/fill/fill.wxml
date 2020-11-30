@@ -1,0 +1,30 @@
+<!--miniprogram/pages/fill/fill.wxml-->
+<view class="c-fill-buttons">
+    <view wx:for="{{dButtons}}" style="{{item.style}}">
+        <view bindtap="{{item.tapEvent}}"  style="{{item.style}}">{{item.text}}</view>
+    </view>
+</view>
+<!--input-->
+<view class="c-fill-input-p">
+    <view class="c-fill-inputs">
+        <view wx:for="{{dInputs}}" wx:for-index="i">
+            <input wx:if="{{item.itype=='input'}}" bindinput="{{item.inputEvent}}" data-event1-params1="{{i}}"
+                   value="{{item.inputValue}}" focus="{{item.focus}}" cursor="2" style="{{item.style}}" class="c-fill-inputs-input"/>
+            <!--nbsp等特殊字符只有text标签设置decode为true才能识别-->
+            <text wx:else decode="true">{{item.text==' '?'&nbsp;':item.text}}</text>
+        </view>
+    </view>
+</view>
+<!--answer-->
+<view bindtap="{{dAnswer.tapEvent}}" class="c-fill-answer">
+    <!--image-->
+    <image wx:if="{{ptype2[0]=='image'}}" mode="aspectFit" src="{{dAnswer.info.image}}" style="{{dAnswer.style}}" class="c-fill-img"></image>
+    <!--tts-->
+    <image wx:elif="{{ptype2[0]=='voice'}}" mode="aspectFit" src="/images/voice.jpg" style="{{dAnswer.style}}" class="c-fill-tts"></image>
+    <!--text-->
+    <view wx:else  style="{{dAnswer.style}}">{{dAnswer.info[ptype2[0]]}}</view>
+</view>
+
+<!--corr-->
+<image mode="aspectFit" src="/images/err.jpg" bindtap="{{dCorr.tapEvent}}" class="c-choice-corr"  style="display:{{dCorr.isCorr==false?'block':'none'}}"></image>
+<image mode="aspectFit" src="/images/succ.jpg" bindtap="{{dCorr.tapEvent}}" class="c-choice-corr" style="display:{{dCorr.isCorr==true?'block':'none'}}"></image>

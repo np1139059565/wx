@@ -1,0 +1,5 @@
+view,text,input{
+    max-width: 100vw;
+    font-size: 3vh;
+    line-height: 5vh;
+}

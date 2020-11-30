@@ -1,0 +1,95 @@
+.c-index-buttons{
+    height: 5vh;
+}
+.c-index-button{
+    height: 5vh;
+    min-width: 5vh;
+    float: left;
+    text-align: center;
+}
+
+.c-index-table{
+    margin-top: 1vh;
+    height:30vh;
+}
+.c-table-search{
+    height: 5vh;
+    text-align: center;
+}
+.c-table-search>input{
+    border-bottom: 1px solid;
+}
+.c-table-sort-desc{
+    border-top: 1px solid;
+}
+.c-table-sort-asc{
+    border-bottom: 1px solid;
+}
+.c-table-scroll{
+    height: calc(100% - 5vh - 5vh - 1vh);
+    overflow: auto;
+}
+.c-table-head{
+    font-weight: bold;
+}
+.c-table-tr{
+    display: table-row;
+}
+.c-table-td{
+    display: table-cell;
+    max-width: initial;
+    word-break: keep-all;
+    padding-left: 2vw;
+    text-align: center;
+}
+.c-table-td-image{
+    max-height:5vh;
+    max-width:5vw;
+    border: 1px solid;
+}
+.c-table-td>text,.c-table-td>image{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.c-table-buttons{
+    height: 5vh;
+}
+.c-table-buttons>view{
+    width: calc(100vw / 7 - 2vw);
+    height: 5vh;
+    float: left;
+    margin-left: 2vw;
+}
+.c-table-buttons>view>view{
+    width: 100%;
+    text-align: center;
+}
+
+.c-trend{
+    height:calc(100vh - 5vh - 31vh);
+    border-top: 1px solid;
+}
+.c-trend-buttons{
+    height: 5vh;
+}
+.c-trend-buttons>view{
+    float: left;
+    margin-left: 2vw;
+}
+.c-trend-conter{
+    height: calc(100% - 5vh - 5vh);
+}
+.c-trend-buttons2{
+    height: 5vh;
+}
+.c-trend-buttons2>view{
+    width: calc(100vw / 5 - 2vw);
+    height: 5vh;
+    float: left;
+    margin-left: 2vw;
+}
+.c-trend-buttons2>view>view{
+    width: 100%;
+    text-align: center;
+}
