@@ -9,7 +9,7 @@ Page({
         dButtons: [
             {text: "<<", vtype: "button", tapEvent: "fFirst", style: ""},
             {text: "<", vtype: "button", tapEvent: "fPri", style: ""},
-            {text: "progress", vtype: "button", tapEvent: "fopenEdit", style: "width:calc(100vw / 6 * 2)"},
+            {text: "title", vtype: "button", tapEvent: "fopenEdit", style: "width:calc(100vw / 6 * 2)"},
             {text: ">", vtype: "button", tapEvent: "fNext", style: ""},
             {text: ">>", vtype: "button", tapEvent: "fLast", style: ""},
         ],
@@ -33,7 +33,7 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        //{progress,answer,o4}
+        //{title,answer,o4}
         const params = JSON.parse(options.params)
         //ptype2
         this.data.ptype2 = params.ptype2
@@ -43,8 +43,8 @@ Page({
         if (this.data.ptype2[1].endsWith(app.avoice.VC)) {
             this.data.ptype2[1] = app.avoice.VC
         }
-        //progress
-        this.data.dButtons[2].text = params.progress
+        //title
+        this.data.dButtons[2].text = params.title
         //is err
         if (params.isErr) {
             this.data.dButtons[2].style += ";color:red"

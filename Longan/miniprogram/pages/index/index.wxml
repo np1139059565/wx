@@ -1,6 +1,49 @@
-<scroll-view scroll-y="true" class="c-sv" enhanced="true" scroll-top="{{scroll.scrollTop}}">
+<wxs src="./index.wxs" module="w1" />
+<!--head-->
+<view class="c-head">
+    <view wx:for="{{butts}}" bindtap="{{item.tapEvent}}" class="c-h-button">{{item.text}}</view>
+</view>
 
-    <view wx-for="scroll.arr" class="c-sv-v">
-        {{item.text}}
-    </view>
-</scroll-view>
+<!--</scroll-view>-->
+<swiper vertical="true" current="{{swiperIndex}}" bindanimationfinish="fscrollEvent" class="c-sv">
+    <swiper-item wx:for="{{swipers}}" wx:for-index="si">
+        <view class="c-sv-v">
+            <!--exam-->
+            <view style="{{item.exam.style}}">
+                <!--title butts-->
+                <view class="c-head">
+                    {{item.exam.title}}
+                </view>
+                <!--fill input-->
+                <view wx:if="{{item.exam.inputs!=null}}" class="c-fill-center1">
+                    <view class="c-fill-center2">
+                        <view wx:for="{{item.exam.inputs}}" wx:for-index="i" wx:for-item="inp" style="float: left;">
+                            <input wx:if="{{inp.itype=='input'}}" bindinput="{{inp.inputEvent}}" data-event1-params1="{{si+','+i}}"
+                                   value="{{inp.inputv}}" focus="{{inp.focus}}" cursor="2" style="{{inp.style}}" class="c-f-input"/>
+                            <!--nbsp等特殊字符只有text标签设置decode为true才能识别-->
+                            <text wx:else decode="true">{{w1.fdecode1(inp.text)}}</text>
+                        </view>
+                    </view>
+                </view>
+                <!--answer-->
+                <view bindtap="fclickAnswer" data-event1-params1="{{si}}" style="{{item.exam.answer.style}}" class="c-answer">
+                    <!--image-->
+                    <image wx:if="{{item.exam.answer.image!=null}}" mode="aspectFit" src="{{item.exam.answer.image}}" style="height: 100%"></image>
+                    <!--text-->
+                    <view wx:else>{{item.exam.answer.text}}</view>
+                </view>
+                <!--selects-->
+                <view>
+                    <view wx:for="{{item.exam.o4}}" wx:for-index="oi" wx:for-item="o" class="c-choice" bindtap="{{o.tapEvent}}" data-event1-params1="{{si+','+oi}}">
+                        <!--image-->
+                        <image wx:if="{{o.image!=null}}" mode="aspectFit" src="{{o.image}}"></image>
+                        <!--text-->
+                        <view wx:else>{{o.text}}</view>
+                    </view>
+                </view>
+            </view>
+            <!--image-->
+            <image src="{{item.image.path}}" bindtap="fOpenSameEvent" data-event1-params1="{{si}}" style="{{item.image.style}}" class="c-sv-image" mode="aspectFit"></image>
+        </view>
+    </swiper-item>
+</swiper>

@@ -1,0 +1,6 @@
+// WXS 代码可以编写在 wxml 文件中的 <wxs> 标签内，或以 .wxs 为后缀名的文件内
+var decode1 = function(text) {
+    return text.replace(" ","&nbsp;")
+}
+
+module.exports.fdecode1 = decode1

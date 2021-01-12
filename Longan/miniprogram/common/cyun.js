@@ -1,10 +1,10 @@
-module.exports.init = (_app) => {
-    app=_app
-    app.units.logs.linfo("init cyun...")
+var app,isInit=false
+function initYun(lerr){
     if (!wx.cloud) {
-        app.units.logs.lerror(undefined, "请使用 2.2.3 或以上的基础库以使用云能力")
+        lerr(undefined, "请使用 2.2.3 或以上的基础库以使用云能力")
     }else{
         //init yun
+        isInit=true
         wx.cloud.init({
             // env 参数说明：
             //   env 参数决定接下来小程序发起的云开发调用（wx.cloud.xxx）会默认请求到哪个云环境的资源
@@ -13,12 +13,8 @@ module.exports.init = (_app) => {
             env: 'yfwq1-4nvjm',
             traceUser: true,//将访问用户记录到云控制台的用户访问中
         })
-        module.exports.fyun=yun1
     }
 }
-
-var app
-
 /**
  *
  * @param name 云函数名 对应 ../cloudfunctions/*
@@ -26,34 +22,52 @@ var app
  * @param callback
  */
 function yun1(name, data, callback){
-    if(app.units.setts.fcache().network){
-        wx.showLoading({
-            title: 'yun...',
-            mask:true//防止触摸
-        })
-        app.units.logs.linfo("yun...")
-        wx.cloud.callFunction({
-            name: name,//云函数名 对应 ../kiwi/cloudfunctions/*
-            data: data,//合并入云函数的event
-            success: res => {
-                if (typeof callback == "function") {
-                    callback(res.errMsg.endsWith(":ok") ? 1 : 0, res.result.data)
+    wx.showLoading({
+        title: 'yun...',
+        mask:true//防止触摸
+    })
+    app.utils.logs.linfo("yun...")
+    wx.cloud.callFunction({
+        name: name,//云函数名 对应 ../kiwi/cloudfunctions/*
+        data: data,//合并入云函数的event
+        success: res => {
+            if (typeof callback == "function") {
+                const code=(res.errMsg.endsWith(":ok")&&res.result.code!=0 ? 1 : 0)
+                if(!code){
+                    app.utils.logs.lerror(res.result.errMsg)
                 }
-            },
-            fail: fe => {
-                app.units.logs.lerror(fe,"cyun fail err.")
-                if (typeof callback == "function") {
-                    callback(0, {msg:fe})
-                }
-            },
-            complete: () => {
-                wx.hideLoading()
+                callback(code, res.result.data)
             }
-        })
-    }else{
-        app.units.logs.lerror(null,"network is false")
-        if(typeof callback=="function"){
-            callback(0,{msg:"network is false"})
+        },
+        fail: fe => {
+            app.utils.logs.lerror(fe,"cyun fail err.")
+            if (typeof callback == "function") {
+                callback(0, {errMsg:fe})
+            }
+        },
+        complete: () => {
+            wx.hideLoading()
+        }
+    })
+}
+
+module.exports.init = (_app,callback) => {
+    app=_app
+    app.utils.logs.linfo("init cyun...")
+    if(!isInit){
+        initYun(app.utils.logs.lerror)
+    }
+    module.exports.fyun=(name, data, callback)=>{
+        if(app.utils.setts.fcache().network){
+            yun1(name, data, callback)
+        }else{
+            app.utils.logs.lerror(null,"network is false")
+            if(typeof callback=="function"){
+                callback(0,{errMsg:"network is false"})
+            }
         }
     }
+    callback(1)
 }
+module.exports.fyun=yun1
+initYun(console.error)

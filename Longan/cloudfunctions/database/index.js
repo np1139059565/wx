@@ -77,7 +77,7 @@ function geoToCollection(event){
       case "skip":
         commands+="['skip']("+(geo1[g] >= 0 ? geo1[g] : 0)+")"//default 0
         break;
-      case "field":
+      case "field"://如果没有过滤条件,则默认查询所有数据
         commands+="['field']("+JSON.stringify(geo1[g])+")"//{field:{settings:true,times:false}}
         break;
       case "doc":

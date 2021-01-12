@@ -1,0 +1,30 @@
+/* miniprogram/pages/setts.wxss */
+page{
+    padding: 5px;
+}
+.c-button{
+    float: left;
+    padding: 0 5px;
+}
+.c-icon{
+    width:3vh;
+    height: 3vh;
+}
+.c-pro{
+    width: 30vw;
+}
+.c-picker-view{
+    height: calc(34px * 3);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.c-obj{
+    height: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-top: 21px solid green;
+    border-top-left-radius:21px;
+    border-top-right-radius:21px;
+}

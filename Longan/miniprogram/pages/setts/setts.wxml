@@ -1,0 +1,31 @@
+<!--miniprogram/pages/setts.wxml-->
+<wxs src="./setts.wxs" module="w1" />
+<view wx:for="{{setts}}" wx:for-index="sk" style="float: left;width: 100vw;">
+    <!--key-->
+    <view wx:if="{{item.itype=='picker'}}" style="float: left;padding-top: 40px;">{{sk}}:</view>
+    <view wx:else style="float: left;">{{sk}}:</view>
+    <!--butts-->
+    <view wx:for="{{item.butts}}" wx:for-index="bk" wx:for-item="bv" bindtap="{{bv.tapEvent}}" data-tap1="{{bk}}" class="c-button">
+        <image wx:if="{{bv.itype=='icon'}}" src="{{bv.src}}" mode="aspectFit" class="c-icon"></image>
+        <view wx:elif="{{bv.itype=='progress'}}" class="c-pro">
+            <progress  percent="{{w1.fToFix(bv.pro)}}" color="{{bv.color}}" show-info="true" style="height: 100%;"/>
+        </view>
+        <view wx:else>{{bv.text}}</view>
+    </view>
+    <!--checkbox sval:boolean-->
+    <checkbox wx:if="{{item.itype=='boolean'}}" checked="{{item.sval}}" bindtap="{{item.tapEvent}}"
+              data-event1-params1="{{sk}}"/>
+    <!--picker sval:index arr-->
+    <picker-view wx:elif="{{item.itype=='picker'}}" value="{{item.sval}}"
+                 bindchange="{{item.changeEvent}}" class="c-picker-view">
+        <picker-view-column wx:for="{{item.sval}}" wx:for-item="xxx">
+            <view wx:for="{{item.pickarr}}" wx:for-item="sv" style="line-height: 34px;">{{sv}}</view>
+        </picker-view-column>
+    </picker-view>
+    <!--object sval:valarr-->
+    <view wx:elif="{{item.itype=='object'}}" bindtap="{{item.fswitch}}" data-event1-params1="{{sk}}"  style="{{item.style}}" class="c-obj">
+        <view wx:for="{{item.sval}}" wx:for-item="nitem">{{nitem}}</view>
+    </view>
+    <view wx:else>{{item.sval}}</view>
+</view>
+

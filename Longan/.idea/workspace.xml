@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/miniprogram/pages/setts/setts.js" line="169" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0b983ff1-d2bc-4fdd-a190-af19031cab92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/miniprogram/common/fs1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/common/logs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloudfunctions/database/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/common/confirms.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/common/confirms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/common/cyun.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/common/cyun.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/common/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/common/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/common/fs1.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/common/fs1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/common/setts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/common/setts.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/common/setting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kiwi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kiwi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kiwi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kiwi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kiwi/miniprogram/pages/fzk/choice/choice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../kiwi/miniprogram/pages/fzk/choice/choice.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,28 +33,184 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miniprogram/app.js">
+        <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="240">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+              <folding>
+                <element signature="e#50#803#0" />
+                <element signature="e#67#144#0" />
+                <element signature="e#68#143#0" />
+                <element signature="e#231#772#0" />
+                <element signature="e#245#249#0" />
+                <element signature="e#1081#2221#0" />
+                <element signature="e#1160#1371#0" />
+                <element signature="e#1443#1522#0" />
+                <element signature="e#1528#2215#0" />
+                <element signature="e#1640#2168#0" />
+                <element signature="e#1701#1822#0" />
+                <element signature="e#1914#2149#0" />
+                <element signature="e#2266#2885#0" />
+                <element signature="e#2276#2309#0" />
+                <element signature="e#2383#2499#0" />
+                <element signature="e#2563#2879#0" />
+                <element signature="e#2577#2596#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxml">
+        <entry file="file://$PROJECT_DIR$/miniprogram/pages/setts/setts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="304">
+              <caret line="286" column="49" selection-start-line="286" selection-start-column="49" selection-end-line="286" selection-end-column="49" />
+              <folding>
+                <element signature="e#65#91#0" />
+                <element signature="e#330#436#0" />
+                <element signature="e#466#628#0" />
+                <element signature="e#1443#2182#0" />
+                <element signature="e#1468#2168#0" />
+                <element signature="e#1500#1638#0" />
+                <element signature="e#1666#1773#0" />
+                <element signature="e#1803#1965#0" />
+                <element signature="e#1992#2150#0" />
+                <element signature="e#2228#2338#0" />
+                <element signature="e#2360#2477#0" />
+                <element signature="e#2558#3633#0" />
+                <element signature="e#2850#3619#0" />
+                <element signature="e#3658#3691#0" />
+                <element signature="e#3723#4964#0" />
+                <element signature="e#3786#3800#0" />
+                <element signature="e#3969#4926#0" />
+                <element signature="e#4033#4089#0" />
+                <element signature="e#4211#4293#0" />
+                <element signature="e#4306#4916#0" />
+                <element signature="e#4361#4504#0" />
+                <element signature="e#4521#4902#0" />
+                <element signature="e#4610#4715#0" />
+                <element signature="e#4985#5334#0" />
+                <element signature="e#5184#5327#0" />
+                <element signature="e#5208#5317#0" />
+                <element signature="e#5353#5643#0" />
+                <element signature="e#6073#6257#0" />
+                <element signature="e#6288#6587#0" />
+                <element signature="e#6350#6464#0" />
+                <element signature="e#6472#6580#0" />
+                <element signature="e#6617#6768#0" />
+                <element signature="e#6709#6761#0" />
+                <element signature="e#6942#7111#0" />
+                <element signature="e#6968#7038#0" />
+                <element signature="e#7166#7744#0" />
+                <element signature="e#7236#7737#0" />
+                <element signature="e#7261#7727#0" />
+                <element signature="e#7339#7706#0" />
+                <element signature="e#7372#7688#0" />
+                <element signature="e#7431#7666#0" />
+                <element signature="e#7511#7600#0" />
+                <element signature="e#7608#7639#0" />
+                <element signature="e#7791#8274#0" />
+                <element signature="e#7817#8062#0" />
+                <element signature="e#7858#7996#0" />
+                <element signature="e#7884#7937#0" />
+                <element signature="e#8102#8255#0" />
+                <element signature="e#8198#8237#0" />
+                <element signature="e#8312#8423#0" />
+                <element signature="e#8463#8578#0" />
+                <element signature="e#8810#9285#0" />
+                <element signature="e#9977#10080#0" />
+                <element signature="e#10006#10066#0" />
+                <element signature="e#10129#10364#0" />
+                <element signature="e#10186#10357#0" />
+                <element signature="e#10243#10346#0" />
+                <element signature="e#10272#10332#0" />
+                <element signature="e#10395#10459#0" />
+                <element signature="e#10465#10502#0" />
+                <element signature="e#10528#10536#0" />
+                <element signature="e#10543#10576#0" />
+                <element signature="e#10601#10609#0" />
+                <element signature="e#10616#10649#0" />
+                <element signature="e#10674#10682#0" />
+                <element signature="e#10689#10722#0" />
+                <element signature="e#10749#10757#0" />
+                <element signature="e#10764#10803#0" />
+                <element signature="e#10839#10847#0" />
+                <element signature="e#10854#10886#0" />
+                <element signature="e#10918#10926#0" />
+                <element signature="e#10933#10961#0" />
+                <element signature="e#10997#11005#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.js">
+        <entry file="file://$PROJECT_DIR$/miniprogram/common/tts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="483">
+              <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc;n#downTTS#0" />
+                <element signature="n#!!block;n#downZH#0" />
+                <element signature="n#!!block;n#vstop#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram/common/setting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram/pages/setts/setts.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+              <folding>
+                <element signature="n#style#0;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#checkbox#0;n#view#0;n#!!top" />
+                <element signature="n#picker-view#0;n#view#0;n#!!top" />
+                <element signature="n#style#0;n#view#0;n#picker-view-column#0;n#picker-view#0;n#view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram/pages/setts/setts.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram/common/cyun.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!block;n#yun1#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,12 +218,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miniprogram/common/database.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="111">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
-                <element signature="e#32#130#0" />
-                <element signature="n#!!doc;n#query1#0" />
-                <element signature="n#!!block;n#queryField#0" />
+                <element signature="n#!!doc;n#update1#0" />
+                <element signature="n#!!block;n#cb#0;n#!!block;n#update1#0" />
+                <element signature="n#!!block;n#saveToYun#0" />
               </folding>
             </state>
           </provider>
@@ -57,23 +232,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miniprogram/common/fs1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+            <state relative-caret-position="600">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
-                <element signature="n#!!block;n#readUTF8#0" />
-                <element signature="n#!!block;n#writeUTF8#0" />
-                <element signature="n#!!block;n#ccdir#0" />
                 <element signature="n#!!block;n#okcallback#0" />
+                <element signature="n#!!block;n#writeUTF8#0" />
+                <element signature="n#!!block;n#exist1#0" />
+                <element signature="n#!!block;n#stat1#0" />
+                <element signature="n#!!block;n#ccdir#0" />
+                <element signature="n#!!block;n#downYun#0" />
+                <element signature="n#!!block;n#downUrl#0" />
+                <element signature="n#!!block;n#copyTmpFileToLocal#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miniprogram/common/setts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -82,41 +252,88 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ret</find>
-      <find>geo</find>
-      <find>.lerror</find>
-      <find>app.alog</find>
-      <find>queryType</find>
-      <find>const</find>
-      <find>msg</find>
-      <find>subjectId</find>
-      <find>fcache</find>
-      <find>fields</find>
+      <find>fupdate</find>
+      <find>.fcache=</find>
+      <find>FZK_CACHE</find>
+      <find>db.</find>
+      <find>isEnd</find>
+      <find>DATA_CACHE</find>
+      <find>query1</find>
+      <find>fwriteUTF8</find>
+      <find>errMsg</find>
+      <find>res[</find>
+      <find>settings</find>
+      <find>is not find geo</find>
+      <find>DATA_Cac</find>
+      <find>.network</find>
+      <find>DATA_CACHE.sett</find>
+      <find>3</find>
+      <find>34</find>
+      <find>pa</find>
+      <find>fuploadDatabase</find>
+      <find>DATA_CACHE =</find>
+      <find>fdownloadDatabase</find>
+      <find>fdownDatabase</find>
+      <find>fdelDB</find>
+      <find>fclean</find>
+      <find>fzkt</find>
+      <find>getCache</find>
+      <find>par</find>
+      <find>initAll</find>
+      <find>s.key</find>
+      <find>).key</find>
     </findStrings>
+    <replaceStrings>
+      <replace>app.utils</replace>
+      <replace>fstat</replace>
+      <replace>fzkt</replace>
+      <replace>answer</replace>
+      <replace>30px</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Administrator\Desktop\git\wx\Longan\miniprogram\pages\setts</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/miniprogram/app.json" />
         <option value="$PROJECT_DIR$/miniprogram/common/logs.js" />
+        <option value="$PROJECT_DIR$/miniprogram/common/date.js" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/setts.wxml" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/setts.wxss" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/setts/setts.wxs" />
+        <option value="$PROJECT_DIR$/miniprogram/common/voice.js" />
+        <option value="$PROJECT_DIR$/miniprogram/common/setts.js" />
+        <option value="$PROJECT_DIR$/miniprogram/common/setting.js" />
         <option value="$PROJECT_DIR$/cloudfunctions/database/index.js" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/choice/choice.wxss" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/choice/choice.wxml" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/choice/choice.js" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/fill/fill.wxml" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/fill/fill.js" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/index/index.wxs" />
         <option value="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" />
         <option value="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" />
-        <option value="$PROJECT_DIR$/miniprogram/pages/index/index.js" />
         <option value="$PROJECT_DIR$/miniprogram/common/confirms.js" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/setts/setts.wxss" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/setts/setts.wxml" />
         <option value="$PROJECT_DIR$/miniprogram/common/fs1.js" />
-        <option value="$PROJECT_DIR$/miniprogram/common/setts.js" />
-        <option value="$PROJECT_DIR$/miniprogram/common/cyun.js" />
-        <option value="$PROJECT_DIR$/miniprogram/app.js" />
         <option value="$PROJECT_DIR$/miniprogram/common/database.js" />
+        <option value="$PROJECT_DIR$/miniprogram/app.js" />
+        <option value="$PROJECT_DIR$/miniprogram/common/cyun.js" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/miniprogram/common/fzk.js" />
+        <option value="$PROJECT_DIR$/miniprogram/app.json" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/setts/setts.js" />
+        <option value="$PROJECT_DIR$/miniprogram/common/tts.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="960" />
+    <option name="width" value="955" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -126,53 +343,73 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name=" Longan" type="b2602c69:ProjectViewProjectNode" />
-              <item name=" Longan" type="462c0819:PsiDirectoryNode" />
+              <item name="Longan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Longan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name=" Longan" type="b2602c69:ProjectViewProjectNode" />
-              <item name=" Longan" type="462c0819:PsiDirectoryNode" />
+              <item name="Longan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Longan" type="462c0819:PsiDirectoryNode" />
               <item name="cloudfunctions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name=" Longan" type="b2602c69:ProjectViewProjectNode" />
-              <item name=" Longan" type="462c0819:PsiDirectoryNode" />
+              <item name="Longan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Longan" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudfunctions" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Longan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Longan" type="462c0819:PsiDirectoryNode" />
               <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name=" Longan" type="b2602c69:ProjectViewProjectNode" />
-              <item name=" Longan" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name=" Longan" type="b2602c69:ProjectViewProjectNode" />
-              <item name=" Longan" type="462c0819:PsiDirectoryNode" />
+              <item name="Longan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Longan" type="462c0819:PsiDirectoryNode" />
               <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Longan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Longan" type="462c0819:PsiDirectoryNode" />
+              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Longan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Longan" type="462c0819:PsiDirectoryNode" />
+              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="setts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="C:/Android/SDK3" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606527150033" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608562773460" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/miniprogram/pages/setts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\git\wx\Longan\miniprogram\pages\setts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\git\wx\Longan\miniprogram\pages\index" />
+      <recent name="C:\Users\Administrator\Desktop\git\wx\Longan\miniprogram\common" />
+      <recent name="C:\Users\Administrator\Desktop\git\wx\Longan\miniprogram\pages" />
       <recent name="C:\Users\Administrator\Desktop\git\wx\ Longan\cloudfunctions" />
       <recent name="C:\Users\Administrator\Desktop\git\wx\ Longan\miniprogram\common" />
     </key>
@@ -202,25 +439,30 @@
       <workItem from="1606173073150" duration="10424000" />
       <workItem from="1606527199476" duration="19625000" />
       <workItem from="1606750754152" duration="457000" />
+      <workItem from="1606776034652" duration="29000" />
+      <workItem from="1606776091058" duration="103752000" />
+      <workItem from="1607866671750" duration="28116000" />
+      <workItem from="1608725015050" duration="2674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30506000" />
+    <option name="totallyTimeSpent" value="165077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" type="SLIDING" visible="true" weight="0.1924307" />
+      <window_info content_ui="combo" id="Project" order="5" type="SLIDING" weight="0.1924307" />
       <window_info id="Learn" order="6" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -257,47 +499,122 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miniprogram/app.wxss" />
-    <entry file="file://$PROJECT_DIR$/miniprogram/sitemap.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/setts/index.js" />
     <entry file="file://$PROJECT_DIR$/project.config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/miniprogram/sitemap.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudfunctions/database/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="132" column="3" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="3" />
+        <state relative-caret-position="536">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="48" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#kiwiRemove#0" />
             <element signature="n#!!block;n#loopRemoveBy1#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxss">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="30">
+          <caret line="14317" column="4" selection-start-line="14317" selection-start-column="4" selection-end-line="14317" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/common/confirms.js">
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/choice/choice.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/setts/setts.wxs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/choice/choice.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="7" />
           <folding>
-            <element signature="n#!!block;n#cshow#0" />
+            <element signature="n#style#0;n#image#0;n#view#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/choice/choice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/choice/choice.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/fill/fill.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#image#0;n#view#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/fill/fill.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="27" selection-start-line="27" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/fill/fill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="24" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#view#0;n#swiper-item#0;n#swiper#0;n#!!top" expanded="true" />
+            <element signature="n#view#0;n#view#0;n#swiper-item#0;n#swiper#0;n#!!top" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#1;n#view#0;n#view#0;n#swiper-item#0;n#swiper#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#view#0;n#view#0;n#view#1;n#view#0;n#view#0;n#swiper-item#0;n#swiper#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#2;n#view#0;n#view#0;n#swiper-item#0;n#swiper#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#view#2;n#view#0;n#view#0;n#swiper-item#0;n#swiper#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#view#0;n#swiper-item#0;n#swiper#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -309,63 +626,260 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/common/cyun.js">
+    <entry file="file://$PROJECT_DIR$/miniprogram/common/confirms.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="120">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/common/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!block;n#getToDay#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/common/fzk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#615#659#0" />
+            <element signature="n#!!block;n#refushAll#0" />
+            <element signature="e#926#970#0" />
+            <element signature="e#1138#1729#0" />
+            <element signature="e#1221#1316#0" />
+            <element signature="e#1354#1449#0" />
+            <element signature="e#1453#1723#0" />
+            <element signature="e#1507#1713#0" />
+            <element signature="e#1544#1699#0" />
+            <element signature="e#1794#1976#0" />
+            <element signature="e#1833#1970#0" />
+            <element signature="e#1866#1949#0" />
+            <element signature="e#2024#2268#0" />
+            <element signature="n#!!block;n#nextInfo#0" />
+            <element signature="e#2438#2500#0" />
+            <element signature="e#2504#2542#0" />
+            <element signature="e#2579#2762#0" />
+            <element signature="n#!!block;n#getKi#0" />
+            <element signature="e#2848#2876#0" />
+            <element signature="e#2924#2986#0" />
+            <element signature="e#3080#3534#0" />
+            <element signature="e#3146#3528#0" />
+            <element signature="e#3466#3518#0" />
+            <element signature="e#3590#3719#0" />
+            <element signature="e#3651#3702#0" />
+            <element signature="e#3776#3854#0" />
+            <element signature="n#!!block;n#isErr#0" />
+            <element signature="n#!!block;n#getO4#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miniprogram/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="510">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxml">
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/common/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding>
-            <element signature="e#32#130#0" />
-            <element signature="n#!!doc;n#query1#0" />
-            <element signature="n#!!block;n#queryField#0" />
+            <element signature="e#50#803#0" />
+            <element signature="e#67#144#0" />
+            <element signature="e#68#143#0" />
+            <element signature="e#231#772#0" />
+            <element signature="e#245#249#0" />
+            <element signature="e#1081#2221#0" />
+            <element signature="e#1160#1371#0" />
+            <element signature="e#1443#1522#0" />
+            <element signature="e#1528#2215#0" />
+            <element signature="e#1640#2168#0" />
+            <element signature="e#1701#1822#0" />
+            <element signature="e#1914#2149#0" />
+            <element signature="e#2266#2885#0" />
+            <element signature="e#2276#2309#0" />
+            <element signature="e#2383#2499#0" />
+            <element signature="e#2563#2879#0" />
+            <element signature="e#2577#2596#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/setts/setts.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/common/cyun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#yun1#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miniprogram/common/fs1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        <state relative-caret-position="600">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
-            <element signature="n#!!block;n#readUTF8#0" />
-            <element signature="n#!!block;n#writeUTF8#0" />
-            <element signature="n#!!block;n#ccdir#0" />
             <element signature="n#!!block;n#okcallback#0" />
+            <element signature="n#!!block;n#writeUTF8#0" />
+            <element signature="n#!!block;n#exist1#0" />
+            <element signature="n#!!block;n#stat1#0" />
+            <element signature="n#!!block;n#ccdir#0" />
+            <element signature="n#!!block;n#downYun#0" />
+            <element signature="n#!!block;n#downUrl#0" />
+            <element signature="n#!!block;n#copyTmpFileToLocal#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/common/setts.js">
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/setts/setts.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="513">
+          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#checkbox#0;n#view#0;n#!!top" />
+            <element signature="n#picker-view#0;n#view#0;n#!!top" />
+            <element signature="n#style#0;n#view#0;n#picker-view-column#0;n#picker-view#0;n#view#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.js">
+    <entry file="file://$PROJECT_DIR$/miniprogram/common/setting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/setts/setts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="286" column="49" selection-start-line="286" selection-start-column="49" selection-end-line="286" selection-end-column="49" />
+          <folding>
+            <element signature="e#65#91#0" />
+            <element signature="e#330#436#0" />
+            <element signature="e#466#628#0" />
+            <element signature="e#1443#2182#0" />
+            <element signature="e#1468#2168#0" />
+            <element signature="e#1500#1638#0" />
+            <element signature="e#1666#1773#0" />
+            <element signature="e#1803#1965#0" />
+            <element signature="e#1992#2150#0" />
+            <element signature="e#2228#2338#0" />
+            <element signature="e#2360#2477#0" />
+            <element signature="e#2558#3633#0" />
+            <element signature="e#2850#3619#0" />
+            <element signature="e#3658#3691#0" />
+            <element signature="e#3723#4964#0" />
+            <element signature="e#3786#3800#0" />
+            <element signature="e#3969#4926#0" />
+            <element signature="e#4033#4089#0" />
+            <element signature="e#4211#4293#0" />
+            <element signature="e#4306#4916#0" />
+            <element signature="e#4361#4504#0" />
+            <element signature="e#4521#4902#0" />
+            <element signature="e#4610#4715#0" />
+            <element signature="e#4985#5334#0" />
+            <element signature="e#5184#5327#0" />
+            <element signature="e#5208#5317#0" />
+            <element signature="e#5353#5643#0" />
+            <element signature="e#6073#6257#0" />
+            <element signature="e#6288#6587#0" />
+            <element signature="e#6350#6464#0" />
+            <element signature="e#6472#6580#0" />
+            <element signature="e#6617#6768#0" />
+            <element signature="e#6709#6761#0" />
+            <element signature="e#6942#7111#0" />
+            <element signature="e#6968#7038#0" />
+            <element signature="e#7166#7744#0" />
+            <element signature="e#7236#7737#0" />
+            <element signature="e#7261#7727#0" />
+            <element signature="e#7339#7706#0" />
+            <element signature="e#7372#7688#0" />
+            <element signature="e#7431#7666#0" />
+            <element signature="e#7511#7600#0" />
+            <element signature="e#7608#7639#0" />
+            <element signature="e#7791#8274#0" />
+            <element signature="e#7817#8062#0" />
+            <element signature="e#7858#7996#0" />
+            <element signature="e#7884#7937#0" />
+            <element signature="e#8102#8255#0" />
+            <element signature="e#8198#8237#0" />
+            <element signature="e#8312#8423#0" />
+            <element signature="e#8463#8578#0" />
+            <element signature="e#8810#9285#0" />
+            <element signature="e#9977#10080#0" />
+            <element signature="e#10006#10066#0" />
+            <element signature="e#10129#10364#0" />
+            <element signature="e#10186#10357#0" />
+            <element signature="e#10243#10346#0" />
+            <element signature="e#10272#10332#0" />
+            <element signature="e#10395#10459#0" />
+            <element signature="e#10465#10502#0" />
+            <element signature="e#10528#10536#0" />
+            <element signature="e#10543#10576#0" />
+            <element signature="e#10601#10609#0" />
+            <element signature="e#10616#10649#0" />
+            <element signature="e#10674#10682#0" />
+            <element signature="e#10689#10722#0" />
+            <element signature="e#10749#10757#0" />
+            <element signature="e#10764#10803#0" />
+            <element signature="e#10839#10847#0" />
+            <element signature="e#10854#10886#0" />
+            <element signature="e#10918#10926#0" />
+            <element signature="e#10933#10961#0" />
+            <element signature="e#10997#11005#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/common/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc;n#update1#0" />
+            <element signature="n#!!block;n#cb#0;n#!!block;n#update1#0" />
+            <element signature="n#!!block;n#saveToYun#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/common/tts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc;n#downTTS#0" />
+            <element signature="n#!!block;n#downZH#0" />
+            <element signature="n#!!block;n#vstop#0" />
+          </folding>
         </state>
       </provider>
     </entry>

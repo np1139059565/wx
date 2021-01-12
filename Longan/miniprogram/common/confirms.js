@@ -1,7 +1,8 @@
-module.exports.init = (_app) => {
+module.exports.init = (_app,callback) => {
     app=_app
     module.exports.fcshow=cshow
     module.exports.fshowSelectList=showSelectList
+    callback(1)
 }
 
 var app
@@ -24,7 +25,7 @@ function cshow(title,okcallback,cancelcallback=null){
                     }
                 }
             }catch (e) {
-                app.units.logs.lerror(e)
+                app.utils.logs.lerror(e)
             }
         }
     })
@@ -39,7 +40,7 @@ function showSelectList(strArr,okcallback){
                     okcallback(strArr[res.tapIndex],res.tapIndex)
                 }
             }catch (e) {
-                app.units.logs.lerror(e,"confirms err!!")
+                app.utils.logs.lerror(e,"confirms err!!")
             }
         }
     })
