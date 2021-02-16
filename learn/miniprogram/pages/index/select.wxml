@@ -1,0 +1,6 @@
+<!--select.wxml-->
+<template name="select">
+    <view class="c-select"></view>
+    <view class="c-options"></view>
+    <view class="c-buttons"></view>
+</template>

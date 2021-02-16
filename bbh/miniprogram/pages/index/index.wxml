@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<image class="c-background" src="images/1491317420.jpg"></image>
+<view class="c-conter">
+  <view class="c-bs" bindtap="getbushu">{{bushu}}</view>
+  <view class="c-hb">步数换红包</view>
+</view>
+<view class="c-buttons">
+  <view ></view>
+  <view ></view>
+  <view bindtap="mlogin">
+    <view class="c-login-image" style="background-image: url({{avatarUrl}})"></view>
+  </view>
+</view>

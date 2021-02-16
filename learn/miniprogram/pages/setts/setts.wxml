@@ -1,0 +1,10 @@
+<!--miniprogram/pages/setts.wxml-->
+<view class="c-buttons">
+    <view wx:for="{{dbuttons}}" class="c-b-node" bindtap="{{item.event}}">{{item.text}}</view>
+</view>
+<view class="c-fs">
+    <view bindlongpress="backpath">{{revpath}}</view>
+    <view wx:for="{{fs}}" bindtap="nextpath" bindlongpress="openmenu" data-event1-params1="{{item.text}}" class="c-child">{{item.text}}</view>
+</view>
+<editor class="c-conter" id="id-edit" bindready="editinit"></editor>
+

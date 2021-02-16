@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+page {
+  height: 100%;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.c-buttons{
+  width: 100%;
+  height: 5vh;
+  /*border-top: 1px solid #CCC;*/
+  /*border-bottom: 1px solid #CCC;*/
+  overflow: scroll;
+  display: flex;
+}
+.c-b-node{
+  float: left;
+  height: 100%;
+  padding: 0 5px;
+  color: green;
+  /*border-left: 1px solid #CCC;*/
+}
+
+.c-swiper{
+  height: calc(100% - 5vh);
+}
+
+.c-select{
+  height: 50%;
+}
+.c-options{
+  height: calc(50% - 5vh);
+}

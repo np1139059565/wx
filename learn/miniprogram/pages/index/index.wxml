@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="c-buttons">
+    <view wx:for="{{dbuttons}}" class="c-b-node" bindtap="{{item.event}}">{{item.text}}</view>
+</view>
+
+<import src="select.wxml"/>
+<import src="edit.wxml"/>
+<swiper vertical="true" class="c-swiper">
+    <swiper-item wx:for="{{dswipers}}">
+        <template is="{{item.viewtype}}" data="{{item}}"/>
+    </swiper-item>
+</swiper>
